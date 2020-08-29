@@ -3,7 +3,7 @@ class Navigation extends React.Component {
     render() {
       return(
 
-      <h1>Hello World!</h1>
+      <p>Hello</p> <a href="#">Link</a>
 
       );
     }
