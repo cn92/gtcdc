@@ -1,15 +1,11 @@
-'use strict';
-
-const e = React.createElement;
 
 class Navigation extends React.Component {
-
     render() {
-      return e(
+      return(
 
-      <p>Hello</p> <a href="#">Link</a>
-
-      );
+      <div><p>Hello</p> <a href="#">Link</a></div>
+      
+      )
     }
 }
   
