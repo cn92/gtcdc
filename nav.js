@@ -4,4 +4,6 @@ class Nav extends React.Component {
     }
   }
 
-  ReactDOM.render(<Nav />, document.getElementById('nav_container'))
+  ReactDOM.render(<Nav />, 
+    document.getElementById('nav_container')
+    );
