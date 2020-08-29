@@ -1,7 +1,3 @@
-import React from "react";
-import ReactDom from "react-dom";
-import Header from "./component/Header";
-import Footer from "./component/Footer";
 
 
 class Navi extends React.Component {
@@ -15,4 +11,4 @@ class Navi extends React.Component {
 }
   
 
-  ReactDOM.render(Navi, document.getElementById("navcontain"));
+  ReactDOM.render(Navi, document.getElementById('navcon'));
