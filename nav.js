@@ -15,6 +15,6 @@ class Navigation extends React.Component {
   
 
   ReactDOM.render( 
-    <Navigation />, 
+    Navigation, 
     document.getElementById('navcontain') 
   );
