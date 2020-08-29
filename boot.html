@@ -5,59 +5,99 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <title>Project: GTCDC</title>
 
 </head>
 
 <body>
 
-    <main>
+    <div class="container container-main">
 
         <header>
 
             <!-- NAVIGATION BAR -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
-            <nav class="tnav">
-                <div class="logo">The Giving Tree</div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a>
-                        <ul id="submenu">
-                            <li><a href="#">Mission & Philosophy</a></li>
-                            <li><a href="#">Our Approach</a></li>
-                            <li><a href="#">General Information</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Programs</a>
-                        <ul id="submenu">
-                            <li><a href="#">Baby Bears</a></li>
-                            <li><a href="#">Lil' Bears</a></li>
-                            <li><a href="#">Honey Bears</a></li>
-                            <li><a href="#">Chubby Cheetahs</a></li>
-                            <li><a href="#">Lil' Tigers</a></li>
-                            <li><a href="#">Lil' Lions</a></li>
-                            <li><a href="#">Lil' Zebras</a></li>
-                            <hr />
-                            <li><a href="#">Pre-K</a></li>
-                            <li><a href="#">Before & After School</a></li>
-                        </ul>
-                    </li>
+                <div class="container">
 
-                    <li><a href="#">Extracurriculars</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                    <nav class="navbar">
+                        <span class="navbar-brand mb-0 h1">Giving Tree</span>
+                    </nav>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    About
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Mission & Philosophy</a>
+                                    <a class="dropdown-item" href="#">Our Approach</a>
+                                    <a class="dropdown-item" href="#">General Information</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Programs
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Baby Bears</a>
+                                    <a class="dropdown-item" href="#">Lil' Bears</a>
+                                    <a class="dropdown-item" href="#">Honey Bears</a>
+                                    <a class="dropdown-item" href="#">Chubby Cheetahs</a>
+                                    <a class="dropdown-item" href="#">Lil' Tigers</a>
+                                    <a class="dropdown-item" href="#">Lil' Lions</a>
+                                    <a class="dropdown-item" href="#">Zebras</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Pre-K</a>
+                                    <a class="dropdown-item" href="#">Before & After School</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Extracurriculars</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+
+
+
+                    </div>
+                </div>
             </nav>
 
-            <!-- END NAV -->
-            
-        </header>
-        
 
-        <div class="container"><hr class="lineshadow" />
-            <section>
+            <!-- END NAV -->
+
+        </header>
+
+        <div class="container">
+            <section class="mainarea">
 
                 <article>
 
@@ -98,9 +138,7 @@
                         habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris molestie
                         porta justo, quis condimentum nisi pretium sed. Nullam pretium sem sed erat hendrerit bibendum.
                     </p>
-                </article>
 
-                <article>
                     <p> Proin pretium purus in diam maximus iaculis. Curabitur finibus augue ac lacus hendrerit
                         facilisis. In sed convallis turpis. Ut aliquet bibendum gravida. Maecenas ac nisl id mauris
                         ornare
@@ -161,58 +199,41 @@
                         In
                         vestibulum semper lorem, ut malesuada metus. Sed accumsan mauris magna, sit amet porttitor enim
                         finibus ut.</p>
+
                 </article>
 
             </section>
-            
         </div>
 
 
         <footer>
-            
 
             <div class="row">
 
-                <div class="col ftlogo">
+                <div class="col-sm">
+                    [IMAGE WILL GO HERE]
                 </div>
 
-                <div class="col">
-                    <h1>Site Map</h1>
-                    <div class="container-row">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Programs</a></li>
-                        <li><a href="#">Extracurriculars</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Programs</a></li>
-                        <li><a href="#">Extracurriculars</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul></div>
+                <div class="col-sm">
+                    [PLACEHOLDER... MAP?]
                 </div>
 
-                <div class="col">
+                <div class="col-sm">
                     <address>
-                        <h1>Location</h1>
-                        The Giving Tree<br />
                         178 Highway 274<br />
                         Lake Wylie, SC 29710<br />
-                        (803) 831-9192
+                        803-831-9192
                     </address>
                 </div>
             </div>
-            <hr class="linefade" />
-            <div class="ct">
+
+            <div class="row-copy">
                 &copy; 2020 Giving Tree Child Development Center
             </div>
 
         </footer>
 
-    </main>
+    </div>
 
 </body>
 

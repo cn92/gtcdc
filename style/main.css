@@ -1,4 +1,52 @@
 body{
-    
+    background: #eee;
+    font-family: arial;
+}
+
+.container-main{   
+    padding: 0px;
+    background: #fff;
+}
+
+.nav{ 
+}
+
+nav .container{
+
+}
+
+
+.mainarea{
+    padding-top: 70px;
+}
+
+section{
+    margin: 10px;
+}
+
+article{
+
+}
+
+
+footer{  
+    background: rgb(243, 243, 243);
+}
+
+footer .col-sm{
+    padding: 10px; 
+    text-align: center;
+    border: 0px solid #000;
+}
+
+footer address{
+    padding-right: 20px;
+    text-align: right;
+}
+
+.row-copy{
+    text-align: center;
+    padding: 10px; 
+    background: rgb(233, 233, 233);
 }
 
