@@ -2,7 +2,7 @@
 
 const e = React.createElement;
 
-class NavContainer extends React.Component {
+class Nav extends React.Component {
 
   render() {
     <nav class="tnav">
@@ -39,4 +39,4 @@ class NavContainer extends React.Component {
 }
 
 const domContainer = document.querySelector('#nav_container');
-ReactDOM.render(e(NavContainer), domContainer);
+ReactDOM.render(e(Nav), domContainer);
