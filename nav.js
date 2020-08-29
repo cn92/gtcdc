@@ -1,16 +1,18 @@
+import React from "react";
+import ReactDom from "react-dom";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
 
-class Navigation extends React.Component {
+
+class Navi extends React.Component {
     render() {
       return(
 
       <div><p>Hello</p> <a href="#">Link</a></div>
-      
+
       )
     }
 }
   
 
-  ReactDOM.render( 
-    Navigation, 
-    document.getElementById('navcontain') 
-  );
+  ReactDOM.render(Navi, document.getElementById("navcontain"));
