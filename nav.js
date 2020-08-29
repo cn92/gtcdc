@@ -1,4 +1,4 @@
-class Nav extends React.Component {
+class Navigation extends React.Component {
 
     constructor(props) {
         super(props);
@@ -6,12 +6,16 @@ class Nav extends React.Component {
     
 
     render() {
-      return 
-      <h1>Hello World!</h1>;
+      return(
+
+      <h1>Hello World!</h1>
+      
+      );
     }
 }
   
 
-  ReactDOM.render(<Nav />, 
-    document.getElementById('#nav_container')
-    );
+  ReactDOM.render( 
+    <Navigation />, 
+    document.getElementById('navcontain') 
+  );
